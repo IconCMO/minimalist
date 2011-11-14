@@ -599,7 +599,7 @@ body .cke_dialog
  */
 .cke_skin_minimalist .cke_dialog .cke_dark_background
 {
-	background-color: #eaead1;
+	background-color: #eaeaea;
 }
 
 .cke_skin_minimalist .cke_dialog .cke_hand
@@ -734,8 +734,9 @@ body .cke_dialog
 .cke_skin_minimalist .cke_dialog .cke_dark_background
 {
 	text-align : center;
-	background-color: #eaead1;
+	background-color: #eaeaea;
 	font-size : 14px;
+	border: solid 1px grey;
 }
 
 .cke_skin_minimalist .cke_dialog .cke_light_background
