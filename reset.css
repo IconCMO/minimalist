@@ -6,11 +6,11 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 /**
  * Reset and Default Values
  */
-.cke_skin_office2003 *,
-.cke_skin_office2003 a:hover,
-.cke_skin_office2003 a:link,
-.cke_skin_office2003 a:visited,
-.cke_skin_office2003 a:active
+.cke_skin_minimalist *,
+.cke_skin_minimalist a:hover,
+.cke_skin_minimalist a:link,
+.cke_skin_minimalist a:visited,
+.cke_skin_minimalist a:active
 {
 	margin: 0;
 	padding: 0;
@@ -32,53 +32,53 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
     font-family: 'Microsoft Sans Serif' , Tahoma, Arial, Verdana, Sans-Serif;
 }
 
-.cke_skin_office2003 .cke_rtl *,
-.cke_skin_office2003 .cke_rtl a:hover,
-.cke_skin_office2003 .cke_rtl a:link,
-.cke_skin_office2003 .cke_rtl a:visited,
-.cke_skin_office2003 .cke_rtl a:active,
-.cke_rtl .cke_skin_office2003 *,
-.cke_rtl .cke_skin_office2003 a:hover,
-.cke_rtl .cke_skin_office2003 a:link,
-.cke_rtl .cke_skin_office2003 a:visited,
-.cke_rtl .cke_skin_office2003 a:active
+.cke_skin_minimalist .cke_rtl *,
+.cke_skin_minimalist .cke_rtl a:hover,
+.cke_skin_minimalist .cke_rtl a:link,
+.cke_skin_minimalist .cke_rtl a:visited,
+.cke_skin_minimalist .cke_rtl a:active,
+.cke_rtl .cke_skin_minimalist *,
+.cke_rtl .cke_skin_minimalist a:hover,
+.cke_rtl .cke_skin_minimalist a:link,
+.cke_rtl .cke_skin_minimalist a:visited,
+.cke_rtl .cke_skin_minimalist a:active
 {
 	text-align: right;
 }
 
-.cke_skin_office2003 iframe
+.cke_skin_minimalist iframe
 {
 	vertical-align: inherit;	/** For IE */
 }
 
-.cke_skin_office2003 textarea
+.cke_skin_minimalist textarea
 {
 	white-space: pre;
 }
 
-.cke_skin_office2003 .cke_browser_gecko textarea
+.cke_skin_minimalist .cke_browser_gecko textarea
 {
 	cursor: text;
 }
 
-.cke_skin_office2003 .cke_browser_gecko textarea[disabled]
+.cke_skin_minimalist .cke_browser_gecko textarea[disabled]
 {
 	cursor: default;
 }
 
-.cke_skin_office2003 input[type="text"],
-.cke_skin_office2003 input[type="password"]
+.cke_skin_minimalist input[type="text"],
+.cke_skin_minimalist input[type="password"]
 {
 	cursor: text;
 }
 
-.cke_skin_office2003 input[type="text"][disabled],
-.cke_skin_office2003 input[type="password"][disabled]
+.cke_skin_minimalist input[type="text"][disabled],
+.cke_skin_minimalist input[type="password"][disabled]
 {
 	cursor: default;
 }
 
-.cke_skin_office2003 fieldset
+.cke_skin_minimalist fieldset
 {
 	padding: 10px;
 	border: 2px groove #E0DFE3;

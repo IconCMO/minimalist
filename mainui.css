@@ -3,36 +3,36 @@ Copyright (c) 2003-2011, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 
-.cke_skin_office2003 .cke_editor
+.cke_skin_minimalist .cke_editor
 {
 	display: inline-table;
 	width: 100%;
 }
-.cke_skin_office2003 .cke_browser_webkit .cke_editor
+.cke_skin_minimalist .cke_browser_webkit .cke_editor
 {
 	display: table;	/* #6684 */
 }
 
-.cke_skin_office2003 span.cke_browser_webkit,
-.cke_skin_office2003 span.cke_browser_gecko18
+.cke_skin_minimalist span.cke_browser_webkit,
+.cke_skin_minimalist span.cke_browser_gecko18
 {
 	display: block;
 }
 
-.cke_skin_office2003,
-.cke_skin_office2003 .cke_wrapper
+.cke_skin_minimalist,
+.cke_skin_minimalist .cke_wrapper
 {
 	display: block;
 }
 
-.cke_skin_office2003 .cke_top,
-.cke_skin_office2003 .cke_bottom,
- .cke_shared .cke_skin_office2003
+.cke_skin_minimalist .cke_top,
+.cke_skin_minimalist .cke_bottom,
+ .cke_shared .cke_skin_minimalist
 {
 	background-color: #f7f8fd;
 }
 
-.cke_skin_office2003 .cke_top
+.cke_skin_minimalist .cke_top
 {
     border-top: solid 1px #fafaf5;
     border-left: solid 1px #fafaf5;
@@ -40,32 +40,32 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
     border-bottom: solid 2px #696969;
 }
 
-.cke_skin_office2003 .cke_rtl .cke_top
+.cke_skin_minimalist .cke_rtl .cke_top
 {
     border-left: solid 1px #696969;
     border-right: solid 1px #fafaf5;
 }
 
-.cke_skin_office2003 .cke_bottom
+.cke_skin_minimalist .cke_bottom
 {
     border-left: solid 1px #696969;
     border-right: solid 1px #696969;
     border-bottom: solid 1px #696969;
 }
 
-.cke_skin_office2003 .cke_contents
+.cke_skin_minimalist .cke_contents
 {
 	border: solid 1px #696969;
 	/* Prevent background content from penetrate through when switching between editing modes. (#4918) */
 	background-color: white;
 }
 
-.cke_skin_office2003 .cke_focus
+.cke_skin_minimalist .cke_focus
 {
 	outline: auto 5px -webkit-focus-ring-color;
 }
 
-.cke_skin_office2003 textarea.cke_source
+.cke_skin_minimalist textarea.cke_source
 {
 	font-family: 'Courier New' , Monospace;
 	font-size: small;
@@ -73,13 +73,13 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 	background-color: #fff;
 }
 
-.cke_skin_office2003 .cke_browser_iequirks textarea.cke_source
+.cke_skin_minimalist .cke_browser_iequirks textarea.cke_source
 {
     /* For IE6+Quirks only */
     _white-space: normal;
 }
 
-.cke_skin_office2003 .cke_resizer
+.cke_skin_minimalist .cke_resizer
 {
 	width: 12px;
 	height: 12px;
@@ -95,13 +95,13 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 }
 
 /* Adobe AIR doesn't support *-resize cursor shape. */
-.cke_skin_office2003 .cke_browser_air .cke_resizer,
-.cke_skin_office2003 .cke_browser_air .cke_rtl .cke_resizer
+.cke_skin_minimalist .cke_browser_air .cke_resizer,
+.cke_skin_minimalist .cke_browser_air .cke_rtl .cke_resizer
 {
 	cursor: move;
 }
 
-.cke_skin_office2003 .cke_resizer_rtl
+.cke_skin_minimalist .cke_resizer_rtl
 {
 	cursor: sw-resize;
 	/* resizer_rtl.gif*/
@@ -109,41 +109,41 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 	float: left;
 }
 
-.cke_skin_office2003 .cke_resizer_horizontal,
-.cke_skin_office2003 .cke_rtl .cke_resizer_horizontal
+.cke_skin_minimalist .cke_resizer_horizontal,
+.cke_skin_minimalist .cke_rtl .cke_resizer_horizontal
 {
 	cursor: e-resize;
 }
 
-.cke_skin_office2003 .cke_resizer_vertical,
-.cke_skin_office2003 .cke_rtl .cke_resizer_vertical
+.cke_skin_minimalist .cke_resizer_vertical,
+.cke_skin_minimalist .cke_rtl .cke_resizer_vertical
 {
 	cursor: n-resize;
 }
 
-.cke_skin_office2003 .cke_maximized .cke_resizer
+.cke_skin_minimalist .cke_maximized .cke_resizer
 {
 	display: none;
 }
 
-.cke_skin_office2003 .cke_browser_ie6 .cke_contents textarea,
-.cke_skin_office2003 .cke_browser_ie7 .cke_contents textarea
+.cke_skin_minimalist .cke_browser_ie6 .cke_contents textarea,
+.cke_skin_minimalist .cke_browser_ie7 .cke_contents textarea
 {
 	position: absolute;
 }
 
 /* All voice labels are not displayed. */
-.cke_skin_office2003 .cke_voice_label
+.cke_skin_minimalist .cke_voice_label
 {
 	display: none;
 }
 
-.cke_skin_office2003 legend.cke_voice_label
+.cke_skin_minimalist legend.cke_voice_label
 {
 	display: none;
 }
 
-.cke_skin_office2003 .cke_browser_ie legend.cke_voice_label
+.cke_skin_minimalist .cke_browser_ie legend.cke_voice_label
 {
 	position: absolute;
 	display: block;

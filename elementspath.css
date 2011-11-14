@@ -11,20 +11,20 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 	}
 }
 
-.cke_skin_office2003 .cke_path
+.cke_skin_minimalist .cke_path
 {
 	padding: 3px 3px 0 3px;
 	display: inline-block;
 	float: left;
 }
 
-.cke_skin_office2003 .cke_rtl .cke_path
+.cke_skin_minimalist .cke_rtl .cke_path
 {
 	float: right;
 }
 
-.cke_skin_office2003 .cke_path a,
-.cke_skin_office2003 .cke_path .cke_empty
+.cke_skin_minimalist .cke_path a,
+.cke_skin_minimalist .cke_path .cke_empty
 {
 	display: inline-block;
 	float: left;
@@ -38,20 +38,20 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 	cursor: default;
 }
 
-.cke_skin_office2003 .cke_path .cke_empty
+.cke_skin_minimalist .cke_path .cke_empty
 {
 	visibility: hidden;
 }
 
-.cke_skin_office2003 .cke_rtl .cke_path a,
-.cke_skin_office2003 .cke_rtl .cke_path cke_empty
+.cke_skin_minimalist .cke_rtl .cke_path a,
+.cke_skin_minimalist .cke_rtl .cke_path cke_empty
 {
 	float: right;
 }
 
-.cke_skin_office2003 .cke_path a:hover,
-.cke_skin_office2003 .cke_path a:focus,
-.cke_skin_office2003 .cke_path a:active	/* IE */
+.cke_skin_minimalist .cke_path a:hover,
+.cke_skin_minimalist .cke_path a:focus,
+.cke_skin_minimalist .cke_path a:active	/* IE */
 {
 	border: solid 1px #316ac5;
 	background-color: #dff1ff;
@@ -62,13 +62,13 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 	outline: none;
 }
 
-.cke_skin_office2003 .cke_browser_ie .cke_rtl .cke_path a,
-.cke_skin_office2003 .cke_browser_ie .cke_rtl .cke_path .cke_empty
+.cke_skin_minimalist .cke_browser_ie .cke_rtl .cke_path a,
+.cke_skin_minimalist .cke_browser_ie .cke_rtl .cke_path .cke_empty
 {
 	float: none;
 }
 
-.cke_skin_office2003 .cke_path .cke_label
+.cke_skin_minimalist .cke_path .cke_label
 {
 	display: none;
 }

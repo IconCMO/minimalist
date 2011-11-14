@@ -3,7 +3,7 @@ Copyright (c) 2003-2011, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 
-CKEDITOR.skins.add( 'office2003', (function()
+CKEDITOR.skins.add( 'minimalist', (function()
 {
 	return {
 		editor		: { css : [ 'editor.css' ] },
@@ -28,7 +28,7 @@ CKEDITOR.skins.add( 'office2003', (function()
 					dialog = data.dialog,
 					contents = dialog.parts.contents;
 
-				if ( data.skin != 'office2003' )
+				if ( data.skin != 'minimalist' )
 					return;
 
 				contents.setStyles(

@@ -10,12 +10,12 @@ body .cke_dialog
 }
 
 /* Force Gecko to consider table as positioned */
-.cke_skin_office2003 table.cke_dialog.cke_browser_gecko
+.cke_skin_minimalist table.cke_dialog.cke_browser_gecko
 {
 	display:block;
 }
 
-.cke_skin_office2003 .cke_dialog_body
+.cke_skin_minimalist .cke_dialog_body
 {
 	margin-left: 16px;
 	margin-right: 16px;
@@ -29,12 +29,12 @@ body .cke_dialog
 	_position: static;
 }
 
-.cke_skin_office2003 .cke_dialog_tl,
-.cke_skin_office2003 .cke_dialog_tr,
-.cke_skin_office2003 .cke_dialog_tc,
-.cke_skin_office2003 .cke_dialog_bl,
-.cke_skin_office2003 .cke_dialog_br,
-.cke_skin_office2003 .cke_dialog_bc
+.cke_skin_minimalist .cke_dialog_tl,
+.cke_skin_minimalist .cke_dialog_tr,
+.cke_skin_minimalist .cke_dialog_tc,
+.cke_skin_minimalist .cke_dialog_bl,
+.cke_skin_minimalist .cke_dialog_br,
+.cke_skin_minimalist .cke_dialog_bc
 {
 	background-image: url(images/sprites.png);
 	background-repeat: no-repeat;
@@ -46,7 +46,7 @@ body .cke_dialog
 	_z-index: -1;
 }
 
-.cke_skin_office2003 .cke_dialog_tl
+.cke_skin_minimalist .cke_dialog_tl
 {
 	background-position: -16px -16px;
 	height: 16px;
@@ -55,12 +55,12 @@ body .cke_dialog
 	left: 0;
 }
 
-.cke_skin_office2003 .cke_rtl .cke_dialog_tl
+.cke_skin_minimalist .cke_rtl .cke_dialog_tl
 {
 	background-position: -16px -397px;
 }
 
-.cke_skin_office2003 .cke_dialog_tr
+.cke_skin_minimalist .cke_dialog_tr
 {
 	background-position: -16px -76px;
 	height: 16px;
@@ -69,12 +69,12 @@ body .cke_dialog
 	right: 0;
 }
 
-.cke_skin_office2003 .cke_rtl .cke_dialog_tr
+.cke_skin_minimalist .cke_rtl .cke_dialog_tr
 {
 	background-position: -16px -457px;
 }
 
-.cke_skin_office2003 .cke_dialog_tc
+.cke_skin_minimalist .cke_dialog_tc
 {
 	background-position: 0 -136px;
 	background-repeat: repeat-x;
@@ -84,7 +84,7 @@ body .cke_dialog
 	right: 16px;
 }
 
-.cke_skin_office2003 .cke_dialog_bl
+.cke_skin_minimalist .cke_dialog_bl
 {
 	background-position: -16px -196px;
 	height: 51px;
@@ -93,12 +93,12 @@ body .cke_dialog
 	left: 0;
 }
 
-.cke_skin_office2003 .cke_rtl .cke_dialog_bl
+.cke_skin_minimalist .cke_rtl .cke_dialog_bl
 {
 	background-position: -16px -517px;
 }
 
-.cke_skin_office2003 .cke_dialog_br
+.cke_skin_minimalist .cke_dialog_br
 {
 	background-position: -16px -263px;
 	height: 51px;
@@ -107,12 +107,12 @@ body .cke_dialog
 	right: 0;
 }
 
-.cke_skin_office2003 .cke_rtl .cke_dialog_br
+.cke_skin_minimalist .cke_rtl .cke_dialog_br
 {
 	background-position: -16px -584px;
 }
 
-.cke_skin_office2003 .cke_dialog_bc
+.cke_skin_minimalist .cke_dialog_bc
 {
 	background-position: 0 -330px;
 	background-repeat: repeat-x;
@@ -122,8 +122,8 @@ body .cke_dialog
 	right: 30px;
 }
 
-.cke_skin_office2003 .cke_dialog_ml,
-.cke_skin_office2003 .cke_dialog_mr
+.cke_skin_minimalist .cke_dialog_ml,
+.cke_skin_minimalist .cke_dialog_mr
 {
 	background-image: url(images/dialog_sides.png);
 	background-repeat: repeat-y;
@@ -139,8 +139,8 @@ body .cke_dialog
 	_top: auto;
 }
 
-.cke_skin_office2003 .cke_rtl .cke_dialog_ml,
-.cke_skin_office2003 .cke_rtl .cke_dialog_mr
+.cke_skin_minimalist .cke_rtl .cke_dialog_ml,
+.cke_skin_minimalist .cke_rtl .cke_dialog_mr
 {
 	background-image: url(images/dialog_sides_rtl.png);
 
@@ -148,25 +148,25 @@ body .cke_dialog
 	_background-image: url(images/dialog_sides.gif);
 }
 
-.cke_skin_office2003 .cke_dialog_ml
+.cke_skin_minimalist .cke_dialog_ml
 {
 	background-position: 0 0;
 	left: 0;
 }
 
-.cke_skin_office2003 .cke_dialog_mr
+.cke_skin_minimalist .cke_dialog_mr
 {
 	background-position: -16px 0;
 	right: 0;
 }
 
-.cke_skin_office2003 .cke_browser_iequirks .cke_dialog_ml,
-.cke_skin_office2003 .cke_browser_iequirks .cke_dialog_mr
+.cke_skin_minimalist .cke_browser_iequirks .cke_dialog_ml,
+.cke_skin_minimalist .cke_browser_iequirks .cke_dialog_mr
 {
 	margin-top: 3px;
 }
 
-.cke_skin_office2003 .cke_dialog_title
+.cke_skin_minimalist .cke_dialog_title
 {
 	background-image: url(images/sprites.png);
 	_background-image: url(images/sprites_ie6.png);
@@ -181,12 +181,12 @@ body .cke_dialog
 	position: relative;
 }
 
-.cke_skin_office2003 .cke_browser_ie.cke_rtl .cke_dialog_title
+.cke_skin_minimalist .cke_browser_ie.cke_rtl .cke_dialog_title
 {
 	position: static;
 }
 
-.cke_skin_office2003 .cke_dialog_contents
+.cke_skin_minimalist .cke_dialog_contents
 {
 	background-color: #f7f8fd;
 	border: #2b66c9 1px solid;
@@ -194,24 +194,24 @@ body .cke_dialog
 	padding: 5px 10px;
 }
 
-.cke_skin_office2003 .cke_dialog_footer
+.cke_skin_minimalist .cke_dialog_footer
 {
 	background-color: #8db1ff;
 	text-align: right;
 }
 
-.cke_skin_office2003 .cke_rtl .cke_dialog_footer
+.cke_skin_minimalist .cke_rtl .cke_dialog_footer
 {
 	text-align: left;
 }
 
-.cke_skin_office2003 .cke_dialog_footer .cke_resizer {
+.cke_skin_minimalist .cke_dialog_footer .cke_resizer {
 	margin-top: 21px;
 }
 
 /* tabs */
 
-.cke_skin_office2003 .cke_dialog_tabs
+.cke_skin_minimalist .cke_dialog_tabs
 {
 	height: 23px;
 	background-color: #8db1ff;
@@ -223,16 +223,16 @@ body .cke_dialog
 	z-index: 2;
 }
 
-.cke_skin_office2003 .cke_rtl .cke_dialog_tabs
+.cke_skin_minimalist .cke_rtl .cke_dialog_tabs
 {
 	right: 10px;
 }
 
-.cke_skin_office2003 a.cke_dialog_tab,
-.cke_skin_office2003 a:link.cke_dialog_tab,
-.cke_skin_office2003 a:active.cke_dialog_tab,
-.cke_skin_office2003 a:hover.cke_dialog_tab,
-.cke_skin_office2003 a:visited.cke_dialog_tab
+.cke_skin_minimalist a.cke_dialog_tab,
+.cke_skin_minimalist a:link.cke_dialog_tab,
+.cke_skin_minimalist a:active.cke_dialog_tab,
+.cke_skin_minimalist a:hover.cke_dialog_tab,
+.cke_skin_minimalist a:visited.cke_dialog_tab
 {
 	color: #0E3460;
 	border-left: 1px solid #2b66c9;
@@ -245,43 +245,43 @@ body .cke_dialog
 }
 
 /* Gecko 1.8 layout workaround. */
-.cke_skin_office2003 .cke_browser_gecko18 a.cke_dialog_tab,
-.cke_skin_office2003 .cke_browser_gecko18 a:link.cke_dialog_tab,
-.cke_skin_office2003 .cke_browser_gecko18 a:active.cke_dialog_tab,
-.cke_skin_office2003 .cke_browser_gecko18 a:hover.cke_dialog_tab,
-.cke_skin_office2003 .cke_browser_gecko18 a:visited.cke_dialog_tab
+.cke_skin_minimalist .cke_browser_gecko18 a.cke_dialog_tab,
+.cke_skin_minimalist .cke_browser_gecko18 a:link.cke_dialog_tab,
+.cke_skin_minimalist .cke_browser_gecko18 a:active.cke_dialog_tab,
+.cke_skin_minimalist .cke_browser_gecko18 a:hover.cke_dialog_tab,
+.cke_skin_minimalist .cke_browser_gecko18 a:visited.cke_dialog_tab
 {
 	display: inline;
 	position: relative;
 	top: 6px;
 }
 
-.cke_skin_office2003 a:hover.cke_dialog_tab
+.cke_skin_minimalist a:hover.cke_dialog_tab
 {
 	background-color: #f7f8fd;
 }
-.cke_skin_office2003 .cke_hc a:hover.cke_dialog_tab
+.cke_skin_minimalist .cke_hc a:hover.cke_dialog_tab
 {
 	padding: 2px 3px !important;
 	border-width: 3px;
 }
 
-.cke_skin_office2003 a.cke_dialog_tab_selected,
-.cke_skin_office2003 a:link.cke_dialog_tab_selected,
-.cke_skin_office2003 a:active.cke_dialog_tab_selected,
-.cke_skin_office2003 a:hover.cke_dialog_tab_selected,
-.cke_skin_office2003 a:visited.cke_dialog_tab_selected
+.cke_skin_minimalist a.cke_dialog_tab_selected,
+.cke_skin_minimalist a:link.cke_dialog_tab_selected,
+.cke_skin_minimalist a:active.cke_dialog_tab_selected,
+.cke_skin_minimalist a:hover.cke_dialog_tab_selected,
+.cke_skin_minimalist a:visited.cke_dialog_tab_selected
 {
 	border-bottom: 1px solid #f7f8fd;
 	background-color: #f7f8fd;
 	font-weight: bold;
 	cursor: default;
 }
-.cke_skin_office2003 .cke_hc a.cke_dialog_tab_selected,
-.cke_skin_office2003 .cke_hc a:link.cke_dialog_tab_selected,
-.cke_skin_office2003 .cke_hc a:active.cke_dialog_tab_selected,
-.cke_skin_office2003 .cke_hc a:hover.cke_dialog_tab_selected,
-.cke_skin_office2003 .cke_hc a:visited.cke_dialog_tab_selected
+.cke_skin_minimalist .cke_hc a.cke_dialog_tab_selected,
+.cke_skin_minimalist .cke_hc a:link.cke_dialog_tab_selected,
+.cke_skin_minimalist .cke_hc a:active.cke_dialog_tab_selected,
+.cke_skin_minimalist .cke_hc a:hover.cke_dialog_tab_selected,
+.cke_skin_minimalist .cke_hc a:visited.cke_dialog_tab_selected
 {
 	padding: 2px 3px !important;
 	border-width: 3px;
@@ -289,37 +289,37 @@ body .cke_dialog
 
 /* single_page */
 
-.cke_skin_office2003 .cke_single_page .cke_dialog_tabs
+.cke_skin_minimalist .cke_single_page .cke_dialog_tabs
 {
 	display: none;
 }
 
-.cke_skin_office2003 .cke_hc .cke_dialog_tabs a,
-.cke_skin_office2003 .cke_hc .cke_dialog_footer a
+.cke_skin_minimalist .cke_hc .cke_dialog_tabs a,
+.cke_skin_minimalist .cke_hc .cke_dialog_footer a
 {
 	opacity: 1.0;
 	filter: alpha(opacity=100);
 	border: 1px solid white;
 }
 
-.cke_skin_office2003 .cke_single_page .cke_dialog_title
+.cke_skin_minimalist .cke_single_page .cke_dialog_title
 {
 	padding-bottom: 3px;
 }
 
-.cke_skin_office2003 .cke_dialog_ui_vbox table,
-.cke_skin_office2003 .cke_dialog_ui_hbox table
+.cke_skin_minimalist .cke_dialog_ui_vbox table,
+.cke_skin_minimalist .cke_dialog_ui_hbox table
 {
 	margin: auto;
 }
 
-.cke_skin_office2003 .cke_dialog_ui_vbox_child
+.cke_skin_minimalist .cke_dialog_ui_vbox_child
 {
 	padding: 5px 0px;
 }
 
-.cke_skin_office2003 input.cke_dialog_ui_input_text,
-.cke_skin_office2003 input.cke_dialog_ui_input_password
+.cke_skin_minimalist input.cke_dialog_ui_input_text,
+.cke_skin_minimalist input.cke_dialog_ui_input_password
 {
 	background-color: white;
 	border: none;
@@ -328,8 +328,8 @@ body .cke_dialog
 	height: 14px;
 }
 
-.cke_skin_office2003 div.cke_dialog_ui_input_text,
-.cke_skin_office2003 div.cke_dialog_ui_input_password
+.cke_skin_minimalist div.cke_dialog_ui_input_text,
+.cke_skin_minimalist div.cke_dialog_ui_input_password
 {
 	background-color: white;
 	border: 1px solid #a0a0a0;
@@ -339,48 +339,48 @@ body .cke_dialog
 }
 
 /* Opera/IE doesn't leave enough padding in text input for cursor to blink in RTL. (#6087) */
-.cke_skin_office2003 .cke_browser_ie.cke_rtl input.cke_dialog_ui_input_text,
-.cke_skin_office2003 .cke_browser_opera.cke_rtl input.cke_dialog_ui_input_text,
-.cke_skin_office2003 .cke_browser_ie.cke_rtl input.cke_dialog_ui_input_password,
-.cke_skin_office2003 .cke_browser_opera.cke_rtl input.cke_dialog_ui_input_password
+.cke_skin_minimalist .cke_browser_ie.cke_rtl input.cke_dialog_ui_input_text,
+.cke_skin_minimalist .cke_browser_opera.cke_rtl input.cke_dialog_ui_input_text,
+.cke_skin_minimalist .cke_browser_ie.cke_rtl input.cke_dialog_ui_input_password,
+.cke_skin_minimalist .cke_browser_opera.cke_rtl input.cke_dialog_ui_input_password
 {
 	padding-right: 2px
 }
 
 /* Compensate the padding added above on container. */
-.cke_skin_office2003 .cke_browser_ie.cke_rtl div.cke_dialog_ui_input_text,
-.cke_skin_office2003 .cke_browser_opera.cke_rtl div.cke_dialog_ui_input_text,
-.cke_skin_office2003 .cke_browser_ie.cke_rtl div.cke_dialog_ui_input_password,
-.cke_skin_office2003 .cke_browser_opera.cke_rtl div.cke_dialog_ui_input_password
+.cke_skin_minimalist .cke_browser_ie.cke_rtl div.cke_dialog_ui_input_text,
+.cke_skin_minimalist .cke_browser_opera.cke_rtl div.cke_dialog_ui_input_text,
+.cke_skin_minimalist .cke_browser_ie.cke_rtl div.cke_dialog_ui_input_password,
+.cke_skin_minimalist .cke_browser_opera.cke_rtl div.cke_dialog_ui_input_password
 {
 	padding-left: 2px;
 }
 
-.cke_skin_office2003 .cke_browser_ie.cke_rtl .cke_dialog_ui_vbox_child,
-.cke_skin_office2003 .cke_browser_ie.cke_rtl .cke_dialog_ui_hbox_child,
-.cke_skin_office2003 .cke_browser_ie.cke_rtl .cke_dialog_ui_hbox_first,
-.cke_skin_office2003 .cke_browser_ie.cke_rtl .cke_dialog_ui_hbox_last
+.cke_skin_minimalist .cke_browser_ie.cke_rtl .cke_dialog_ui_vbox_child,
+.cke_skin_minimalist .cke_browser_ie.cke_rtl .cke_dialog_ui_hbox_child,
+.cke_skin_minimalist .cke_browser_ie.cke_rtl .cke_dialog_ui_hbox_first,
+.cke_skin_minimalist .cke_browser_ie.cke_rtl .cke_dialog_ui_hbox_last
 {
 	padding-right: 2px !important;
 }
 
-.cke_skin_office2003 .cke_browser_ie.cke_rtl div.cke_dialog_ui_input_text {
+.cke_skin_minimalist .cke_browser_ie.cke_rtl div.cke_dialog_ui_input_text {
 	padding-right: 1px;
 }
 
-.cke_skin_office2003 .cke_browser_gecko.cke_hc div.cke_dialog_ui_input_text,
-.cke_skin_office2003 .cke_browser_gecko.cke_hc div.cke_dialog_ui_input_password
+.cke_skin_minimalist .cke_browser_gecko.cke_hc div.cke_dialog_ui_input_text,
+.cke_skin_minimalist .cke_browser_gecko.cke_hc div.cke_dialog_ui_input_password
 {
 	border-width: 0px;
 }
 
-.cke_skin_office2003 .cke_browser_gecko18.cke_hc div.cke_dialog_ui_input_text,
-.cke_skin_office2003 .cke_browser_gecko18.cke_hc div.cke_dialog_ui_input_password
+.cke_skin_minimalist .cke_browser_gecko18.cke_hc div.cke_dialog_ui_input_text,
+.cke_skin_minimalist .cke_browser_gecko18.cke_hc div.cke_dialog_ui_input_password
 {
 	border-width: 1px;
 }
 
-.cke_skin_office2003 textarea.cke_dialog_ui_input_textarea
+.cke_skin_minimalist textarea.cke_dialog_ui_input_textarea
 {
 	background-color: white;
 	border: none;
@@ -395,7 +395,7 @@ body .cke_dialog
 	resize: none;
 }
 
-.cke_skin_office2003 div.cke_dialog_ui_input_textarea
+.cke_skin_minimalist div.cke_dialog_ui_input_textarea
 {
 	background-color: white;
 	border: 1px solid #a0a0a0;
@@ -403,56 +403,56 @@ body .cke_dialog
 }
 
 /* RTL + IE6: Input overflows dialog element. (#7321) */
-.cke_skin_office2003 .cke_rtl .cke_dialog_ui_labeled_content
+.cke_skin_minimalist .cke_rtl .cke_dialog_ui_labeled_content
 {
 	_width: 95%;
 }
 
-.cke_skin_office2003 div.cke_disabled .cke_dialog_ui_labeled_content *
+.cke_skin_minimalist div.cke_disabled .cke_dialog_ui_labeled_content *
 {
 	background-color : #a0a0a0;
 	cursor : default;
 }
 
-.cke_skin_office2003 .cke_dialog_ui_hbox
+.cke_skin_minimalist .cke_dialog_ui_hbox
 {
 	width: 100%;
 }
 
-.cke_skin_office2003 .cke_dialog_ui_hbox_first,
-.cke_skin_office2003 .cke_dialog_ui_hbox_child,
-.cke_skin_office2003 .cke_dialog_ui_hbox_last
+.cke_skin_minimalist .cke_dialog_ui_hbox_first,
+.cke_skin_minimalist .cke_dialog_ui_hbox_child,
+.cke_skin_minimalist .cke_dialog_ui_hbox_last
 {
 	vertical-align: top;
 }
 
-.cke_skin_office2003 .cke_ltr .cke_dialog_ui_hbox_first,
-.cke_skin_office2003 .cke_ltr .cke_dialog_ui_hbox_child
+.cke_skin_minimalist .cke_ltr .cke_dialog_ui_hbox_first,
+.cke_skin_minimalist .cke_ltr .cke_dialog_ui_hbox_child
 {
 	padding-right: 10px;
 }
 
-.cke_skin_office2003 .cke_rtl .cke_dialog_ui_hbox_first,
-.cke_skin_office2003 .cke_rtl .cke_dialog_ui_hbox_child
+.cke_skin_minimalist .cke_rtl .cke_dialog_ui_hbox_first,
+.cke_skin_minimalist .cke_rtl .cke_dialog_ui_hbox_child
 {
 	padding-left: 10px;
 }
 
 /* button */
 
-.cke_skin_office2003 a.cke_dialog_ui_button
+.cke_skin_minimalist a.cke_dialog_ui_button
 {
 	border-collapse: separate;
 	cursor: default;
 }
 
-.cke_skin_office2003 a.cke_dialog_ui_button_ok span,
-.cke_skin_office2003 a.cke_dialog_ui_button_cancel span
+.cke_skin_minimalist a.cke_dialog_ui_button_ok span,
+.cke_skin_minimalist a.cke_dialog_ui_button_cancel span
 {
 	width:60px;
 }
 
-.cke_skin_office2003 span.cke_dialog_ui_button
+.cke_skin_minimalist span.cke_dialog_ui_button
 {
 	background-image: url(images/sprites.png);
 	_background-image: url(images/sprites_ie6.png);
@@ -468,30 +468,30 @@ body .cke_dialog
 }
 
 /* Gecko 1.8 does not support display: inline-block */
-.cke_skin_office2003 .cke_browser_gecko18 .cke_dialog_footer_buttons span.cke_dialog_ui_button
+.cke_skin_minimalist .cke_browser_gecko18 .cke_dialog_footer_buttons span.cke_dialog_ui_button
 {
 	display: block;
 }
 
-.cke_skin_office2003 a.cke_dialog_ui_button span.cke_disabled
+.cke_skin_minimalist a.cke_dialog_ui_button span.cke_disabled
 {
 	border: #898980 1px solid;
 	color: #5e5e55;
 	background-color: #c5c5b3;
 }
 
-.cke_skin_office2003 a:focus span.cke_dialog_ui_button,
-.cke_skin_office2003 a:active span.cke_dialog_ui_button
+.cke_skin_minimalist a:focus span.cke_dialog_ui_button,
+.cke_skin_minimalist a:active span.cke_dialog_ui_button
 {
 	background-color: #8db1ff;
 }
-.cke_skin_office2003 .cke_hc a:focus span.cke_dialog_ui_button,
-.cke_skin_office2003 .cke_hc a:active span.cke_dialog_ui_button
+.cke_skin_minimalist .cke_hc a:focus span.cke_dialog_ui_button,
+.cke_skin_minimalist .cke_hc a:active span.cke_dialog_ui_button
 {
 	border-width: 2px;
 }
 
-.cke_skin_office2003 .cke_dialog_footer_buttons
+.cke_skin_minimalist .cke_dialog_footer_buttons
 {
 	display: inline-table;
 	margin-right: 12px;
@@ -501,32 +501,32 @@ body .cke_dialog
 }
 
 /* Gecko 1.8 does not support for display: inline-table */
-.cke_skin_office2003 .cke_browser_gecko18 .cke_dialog_footer_buttons
+.cke_skin_minimalist .cke_browser_gecko18 .cke_dialog_footer_buttons
 {
 	display: inline;
 }
 
-.cke_skin_office2003 .cke_dialog_footer_buttons span.cke_dialog_ui_button
+.cke_skin_minimalist .cke_dialog_footer_buttons span.cke_dialog_ui_button
 {
 	margin: 7px 0;
 }
 
-.cke_skin_office2003 .cke_browser_ie7 .cke_dialog_footer_buttons
+.cke_skin_minimalist .cke_browser_ie7 .cke_dialog_footer_buttons
 {
 	position: static;
 }
 
-.cke_skin_office2003 strong
+.cke_skin_minimalist strong
 {
 	font-weight: bold;
 }
 
 /* close_button */
 
-.cke_skin_office2003 a.cke_dialog_close_button,
-.cke_skin_office2003 a:hover.cke_dialog_close_button,
-.cke_skin_office2003 .cke_browser_ie6 a.cke_dialog_close_button,
-.cke_skin_office2003 .cke_browser_ie6 a:hover.cke_dialog_close_button
+.cke_skin_minimalist a.cke_dialog_close_button,
+.cke_skin_minimalist a:hover.cke_dialog_close_button,
+.cke_skin_minimalist .cke_browser_ie6 a.cke_dialog_close_button,
+.cke_skin_minimalist .cke_browser_ie6 a:hover.cke_dialog_close_button
 {
 	background-image: url(images/sprites.png);
 	background-repeat: no-repeat;
@@ -542,27 +542,27 @@ body .cke_dialog
 	_background-image: url(images/sprites_ie6.png);
 }
 
-.cke_skin_office2003 a.cke_dialog_close_button span
+.cke_skin_minimalist a.cke_dialog_close_button span
 {
 	display: none;
 }
 
-.cke_skin_office2003 .cke_ltr a.cke_dialog_close_button
+.cke_skin_minimalist .cke_ltr a.cke_dialog_close_button
 {
 	right: 10px;
 	_right: 22px;
 }
 
-.cke_skin_office2003 .cke_rtl a.cke_dialog_close_button,
-.cke_skin_office2003 .cke_rtl a:hover.cke_dialog_close_button
+.cke_skin_minimalist .cke_rtl a.cke_dialog_close_button,
+.cke_skin_minimalist .cke_rtl a:hover.cke_dialog_close_button
 {
 	left: 10px;
 	_left: 16px;
 	_top: 6px;
 }
 
-.cke_skin_office2003 .cke_browser_ie6.cke_rtl a.cke_dialog_close_button,
-.cke_skin_office2003 .cke_browser_ie6.cke_rtl a:hover.cke_dialog_close_button
+.cke_skin_minimalist .cke_browser_ie6.cke_rtl a.cke_dialog_close_button,
+.cke_skin_minimalist .cke_browser_ie6.cke_rtl a:hover.cke_dialog_close_button
 {
 	position: relative;
 	float: left;
@@ -570,25 +570,25 @@ body .cke_dialog
 	margin-left: -7px;
 }
 
-.cke_skin_office2003 .cke_browser_iequirks.cke_rtl.cke_single_page a.cke_dialog_close_button,
-.cke_skin_office2003 .cke_browser_iequirks.cke_rtl.cke_single_page a:hover.cke_dialog_close_button
+.cke_skin_minimalist .cke_browser_iequirks.cke_rtl.cke_single_page a.cke_dialog_close_button,
+.cke_skin_minimalist .cke_browser_iequirks.cke_rtl.cke_single_page a:hover.cke_dialog_close_button
 {
 	margin-top: -32px;
 }
 
-.cke_skin_office2003 .cke_browser_iequirks.cke_ltr a.cke_dialog_close_button,
-.cke_skin_office2003 .cke_browser_iequirks.cke_ltr a:hover.cke_dialog_close_button
+.cke_skin_minimalist .cke_browser_iequirks.cke_ltr a.cke_dialog_close_button,
+.cke_skin_minimalist .cke_browser_iequirks.cke_ltr a:hover.cke_dialog_close_button
 {
 	margin-top: 0;
 }
 
-.cke_skin_office2003 .cke_dialog_ui_input_select
+.cke_skin_minimalist .cke_dialog_ui_input_select
 {
 	border: 1px solid #a0a0a0;
 	background-color: white;
 }
 
-.cke_skin_office2003 .cke_dialog_ui_input_file
+.cke_skin_minimalist .cke_dialog_ui_input_file
 {
 	width: 100%;
 	height: 25px;
@@ -597,22 +597,22 @@ body .cke_dialog
 /*
  * Some utility CSS classes for dialog authors.
  */
-.cke_skin_office2003 .cke_dialog .cke_dark_background
+.cke_skin_minimalist .cke_dialog .cke_dark_background
 {
 	background-color: #eaead1;
 }
 
-.cke_skin_office2003 .cke_dialog .cke_hand
+.cke_skin_minimalist .cke_dialog .cke_hand
 {
 	cursor: pointer;
 }
 
-.cke_skin_office2003 .cke_dialog .cke_centered
+.cke_skin_minimalist .cke_dialog .cke_centered
 {
 	text-align: center;
 }
 
-.cke_skin_office2003 .cke_dialog a.cke_btn_reset
+.cke_skin_minimalist .cke_dialog a.cke_btn_reset
 {
 	float: right;
 	background-position: 0 -32px;
@@ -624,13 +624,13 @@ body .cke_dialog
 	font-size: 1px;
 }
 
-.cke_skin_office2003 .cke_rtl .cke_dialog a.cke_btn_reset
+.cke_skin_minimalist .cke_rtl .cke_dialog a.cke_btn_reset
 {
 	float: left;
 }
 
-.cke_skin_office2003 .cke_dialog a.cke_btn_locked,
-.cke_skin_office2003 .cke_dialog a.cke_btn_unlocked
+.cke_skin_minimalist .cke_dialog a.cke_btn_locked,
+.cke_skin_minimalist .cke_dialog a.cke_btn_unlocked
 {
 	float: left;
 	background-position: 0 0;
@@ -641,30 +641,30 @@ body .cke_dialog
 	border: none 1px;
 	font-size: 1px;
 }
-.cke_skin_office2003 .cke_dialog a.cke_btn_locked .cke_icon
+.cke_skin_minimalist .cke_dialog a.cke_btn_locked .cke_icon
 {
 	display:none;
 }
 
-.cke_skin_office2003 .cke_rtl .cke_dialog a.cke_btn_locked,
-.cke_skin_office2003 .cke_rtl .cke_dialog a.cke_btn_unlocked
+.cke_skin_minimalist .cke_rtl .cke_dialog a.cke_btn_locked,
+.cke_skin_minimalist .cke_rtl .cke_dialog a.cke_btn_unlocked
 {
 	float: right;
 }
 
-.cke_skin_office2003 .cke_dialog a.cke_btn_unlocked
+.cke_skin_minimalist .cke_dialog a.cke_btn_unlocked
 {
 	background-position: 0 -16px;
 	background-image: url(images/mini.gif);
 }
 
-.cke_skin_office2003 .cke_dialog .cke_btn_over
+.cke_skin_minimalist .cke_dialog .cke_btn_over
 {
 	border: outset 1px;
 	cursor: pointer;
 }
 
-.cke_skin_office2003 .cke_dialog  .ImagePreviewBox
+.cke_skin_minimalist .cke_dialog  .ImagePreviewBox
 {
 	border : 2px ridge black;
 	overflow : scroll;
@@ -674,17 +674,17 @@ body .cke_dialog
 	background-color : white;
 }
 
-.cke_skin_office2003 .cke_dialog .ImagePreviewBox table td {
+.cke_skin_minimalist .cke_dialog .ImagePreviewBox table td {
 	white-space: normal;
 }
 
 /* Fix iframedialog's height doesn't stretch to 100% #4863.*/
-.cke_skin_office2003 .cke_browser_iequirks .cke_dialog_page_contents
+.cke_skin_minimalist .cke_browser_iequirks .cke_dialog_page_contents
 {
 	_position: absolute;
 }
 
-.cke_skin_office2003 .cke_dialog  .ImagePreviewLoader
+.cke_skin_minimalist .cke_dialog  .ImagePreviewLoader
 {
 	position: absolute;
 	white-space : normal;
@@ -699,7 +699,7 @@ body .cke_dialog
 	background-color : #e4e4e4;
 }
 
-.cke_skin_office2003 .cke_dialog  .FlashPreviewBox
+.cke_skin_minimalist .cke_dialog  .FlashPreviewBox
 {
 	white-space : normal;
 	border : 2px ridge black;
@@ -710,20 +710,20 @@ body .cke_dialog
 	background-color : white;
 }
 
-.cke_skin_office2003 .cke_dialog .cke_pastetext
+.cke_skin_minimalist .cke_dialog .cke_pastetext
 {
 	width: 346px;
 	height: 170px;
 }
 
-.cke_skin_office2003 .cke_dialog .cke_pastetext textarea
+.cke_skin_minimalist .cke_dialog .cke_pastetext textarea
 {
 	width: 340px;
 	height: 170px;
 	resize: none;
 }
 
-.cke_skin_office2003 .cke_dialog iframe.cke_pasteframe
+.cke_skin_minimalist .cke_dialog iframe.cke_pasteframe
 {
 	width: 346px;
 	height: 130px;
@@ -731,50 +731,50 @@ body .cke_dialog
 	border: 1px solid black;
 }
 
-.cke_skin_office2003 .cke_dialog .cke_dark_background
+.cke_skin_minimalist .cke_dialog .cke_dark_background
 {
 	text-align : center;
 	background-color: #eaead1;
 	font-size : 14px;
 }
 
-.cke_skin_office2003 .cke_dialog .cke_light_background
+.cke_skin_minimalist .cke_dialog .cke_light_background
 {
 	text-align : center;
 	background-color: #ffffbe;
 }
 
-.cke_skin_office2003 .cke_dialog .cke_hand
+.cke_skin_minimalist .cke_dialog .cke_hand
 {
 	cursor: pointer;
 }
 
-.cke_skin_office2003 .cke_disabled
+.cke_skin_minimalist .cke_disabled
 {
 	color: #a0a0a0;
 }
 
 /* High Contrast Mode */
-.cke_skin_office2003 .cke_hc .cke_dialog_title,
-.cke_skin_office2003 .cke_hc .cke_dialog_tabs,
-.cke_skin_office2003 .cke_hc .cke_dialog_contents,
-.cke_skin_office2003 .cke_hc .cke_dialog_footer
+.cke_skin_minimalist .cke_hc .cke_dialog_title,
+.cke_skin_minimalist .cke_hc .cke_dialog_tabs,
+.cke_skin_minimalist .cke_hc .cke_dialog_contents,
+.cke_skin_minimalist .cke_hc .cke_dialog_footer
 {
 	border-left: 1px solid;
 	border-right: 1px solid;
 }
 
-.cke_skin_office2003 .cke_hc .cke_dialog_title
+.cke_skin_minimalist .cke_hc .cke_dialog_title
 {
 	border-top: 1px solid;
 }
 
-.cke_skin_office2003 .cke_hc .cke_dialog_footer
+.cke_skin_minimalist .cke_hc .cke_dialog_footer
 {
 	border-bottom: 1px solid;
 }
 
-.cke_skin_office2003 .cke_hc .cke_dialog_close_button span
+.cke_skin_minimalist .cke_hc .cke_dialog_close_button span
 {
 	display: inline;
 	cursor: pointer;
@@ -783,25 +783,25 @@ body .cke_dialog
 	top: 3px;
 }
 
-.cke_skin_office2003 .cke_dialog_body .cke_label
+.cke_skin_minimalist .cke_dialog_body .cke_label
 {
 	display: none;
 }
 
-.cke_skin_office2003 .cke_dialog_body label.cke_required
+.cke_skin_minimalist .cke_dialog_body label.cke_required
 {
 	font-weight: bold;
 }
 
-.cke_skin_office2003 .cke_hc .cke_dialog_body .cke_label
+.cke_skin_minimalist .cke_hc .cke_dialog_body .cke_label
 {
 	display: inline;
 	cursor: inherit;
 }
 
-.cke_skin_office2003 .cke_hc a.cke_btn_locked,
-.cke_skin_office2003 .cke_hc a.cke_btn_unlocked,
-.cke_skin_office2003 .cke_hc a.cke_btn_reset
+.cke_skin_minimalist .cke_hc a.cke_btn_locked,
+.cke_skin_minimalist .cke_hc a.cke_btn_unlocked,
+.cke_skin_minimalist .cke_hc a.cke_btn_reset
 {
 	border-style: solid;
 	float: left;
@@ -809,14 +809,14 @@ body .cke_dialog
 	height: auto;
 	padding: 0 2px;
 }
-.cke_skin_office2003 .cke_hc a.cke_btn_locked .cke_icon
+.cke_skin_minimalist .cke_hc a.cke_btn_locked .cke_icon
 {
 	display:inline;
 }
 
-.cke_skin_office2003 .cke_rtl.cke_hc a.cke_btn_locked,
-.cke_skin_office2003 .cke_rtl.cke_hc a.cke_btn_unlocked,
-.cke_skin_office2003 .cke_rtl.cke_hc a.cke_btn_reset
+.cke_skin_minimalist .cke_rtl.cke_hc a.cke_btn_locked,
+.cke_skin_minimalist .cke_rtl.cke_hc a.cke_btn_unlocked,
+.cke_skin_minimalist .cke_rtl.cke_hc a.cke_btn_reset
 {
 	float: right;
 }
@@ -825,7 +825,7 @@ body .cke_dialog
  * Styles specific to "cellProperties" dialog.
  */
 
-.cke_skin_office2003 .cke_dialog_contents a.colorChooser
+.cke_skin_minimalist .cke_dialog_contents a.colorChooser
 {
 	display:block;
 	margin-top:12px;
@@ -833,25 +833,25 @@ body .cke_dialog
 	width: 40px;
 }
 
-.cke_skin_office2003 .cke_dialog_contents a.colorChooser .cke_dialog_ui_button
+.cke_skin_minimalist .cke_dialog_contents a.colorChooser .cke_dialog_ui_button
 {
 	width:100%;
 }
 
-.cke_skin_office2003 .cke_rtl .cke_dialog_contents a.colorChooser
+.cke_skin_minimalist .cke_rtl .cke_dialog_contents a.colorChooser
 {
 	margin-right: 10px;
 }
 
 /* Compensate focus outline for some input elements. (#6200) */
-.cke_skin_office2003 .cke_browser_gecko .cke_dialog_ui_checkbox_input:focus,
-.cke_skin_office2003 .cke_browser_gecko .cke_dialog_ui_radio_input:focus,
-.cke_skin_office2003 .cke_browser_opera .cke_dialog_ui_checkbox_input:focus,
-.cke_skin_office2003 .cke_browser_opera .cke_dialog_ui_radio_input:focus,
-.cke_skin_office2003 .cke_browser_gecko .cke_dialog_ui_input_select:focus,
-.cke_skin_office2003 .cke_browser_gecko .cke_btn_over,
-.cke_skin_office2003 .cke_browser_opera .cke_btn_over,
-.cke_skin_office2003 .cke_browser_ie .cke_btn_over
+.cke_skin_minimalist .cke_browser_gecko .cke_dialog_ui_checkbox_input:focus,
+.cke_skin_minimalist .cke_browser_gecko .cke_dialog_ui_radio_input:focus,
+.cke_skin_minimalist .cke_browser_opera .cke_dialog_ui_checkbox_input:focus,
+.cke_skin_minimalist .cke_browser_opera .cke_dialog_ui_radio_input:focus,
+.cke_skin_minimalist .cke_browser_gecko .cke_dialog_ui_input_select:focus,
+.cke_skin_minimalist .cke_browser_gecko .cke_btn_over,
+.cke_skin_minimalist .cke_browser_opera .cke_btn_over,
+.cke_skin_minimalist .cke_browser_ie .cke_btn_over
 {
 	outline: 1px dotted #696969;
 }
@@ -859,11 +859,11 @@ body .cke_dialog
 /* IE<8 instead doesn't support CSS outline property, emulated with dotted border. */
 
 /* Predefined border to avoid visual size change impact. */
-.cke_skin_office2003 .cke_browser_ie .cke_dialog_ui_checkbox_input,
-.cke_skin_office2003 .cke_browser_ie .cke_dialog_ui_ratio_input,
-.cke_skin_office2003 .cke_browser_ie .cke_btn_reset,
-.cke_skin_office2003 .cke_browser_ie .cke_btn_locked,
-.cke_skin_office2003 .cke_browser_ie .cke_btn_unlocked
+.cke_skin_minimalist .cke_browser_ie .cke_dialog_ui_checkbox_input,
+.cke_skin_minimalist .cke_browser_ie .cke_dialog_ui_ratio_input,
+.cke_skin_minimalist .cke_browser_ie .cke_btn_reset,
+.cke_skin_minimalist .cke_browser_ie .cke_btn_locked,
+.cke_skin_minimalist .cke_browser_ie .cke_btn_unlocked
 {
 	*border: 1px solid transparent !important;
 	/* Emulating border-color: transparent in IE6.*/
@@ -872,13 +872,13 @@ body .cke_dialog
 	-filter: chroma(color=red);
 }
 
-.cke_skin_office2003 .cke_browser_ie .cke_dialog_ui_focused,
-.cke_skin_office2003 .cke_browser_ie .cke_btn_over
+.cke_skin_minimalist .cke_browser_ie .cke_dialog_ui_focused,
+.cke_skin_minimalist .cke_browser_ie .cke_btn_over
 {
 	*border: 1px dotted #696969 !important;
 }
 
-.cke_skin_office2003 .cke_iframe_shim
+.cke_skin_minimalist .cke_iframe_shim
 {
 	display:block;
 	position:absolute;
