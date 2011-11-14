@@ -174,8 +174,8 @@ body .cke_dialog
 	background-repeat: repeat-x;
 	font-weight: bold;
 	font-size: 14pt;
-	color: #0E3460;
-	background-color: #8db1ff;
+	color: black;
+	background-color: #c6c6c6;
 	padding: 3px 10px 26px 10px;
 	cursor: move;
 	position: relative;
@@ -189,14 +189,14 @@ body .cke_dialog
 .cke_skin_minimalist .cke_dialog_contents
 {
 	background-color: #f7f8fd;
-	border: #2b66c9 1px solid;
+	border: #c9c9c9 1px solid;
 	overflow: auto;
 	padding: 5px 10px;
 }
 
 .cke_skin_minimalist .cke_dialog_footer
 {
-	background-color: #8db1ff;
+	background-color: #c6c6c6;
 	text-align: right;
 }
 
@@ -214,7 +214,7 @@ body .cke_dialog
 .cke_skin_minimalist .cke_dialog_tabs
 {
 	height: 23px;
-	background-color: #8db1ff;
+	background-color: #c6c6c6;
 	display: inline-block;
 	margin-left:10px;
 	margin-right:10px;
@@ -234,10 +234,10 @@ body .cke_dialog
 .cke_skin_minimalist a:hover.cke_dialog_tab,
 .cke_skin_minimalist a:visited.cke_dialog_tab
 {
-	color: #0E3460;
-	border-left: 1px solid #2b66c9;
-	border-right: 1px solid #2b66c9;
-	border-top: 1px solid #2b66c9;
+	color: black;
+	border-left: 1px solid #c9c9c9;
+	border-right: 1px solid #c9c9c9;
+	border-top: 1px solid #c9c9c9;
 	height: 14px;
 	padding: 4px 5px;
 	display: inline-block;
@@ -458,11 +458,11 @@ body .cke_dialog
 	_background-image: url(images/sprites_ie6.png);
 	background-position: 0 -678px;
 	background-repeat: repeat-x;
-	border: #0E3460 1px solid;
+	border: #606060 1px solid;
 	padding: 2px 10px;
 	text-align: center;
-	color: #0E3460;
-	background-color: #8db1ff;
+	color: black;
+	background-color: #c6c6c6;
 	display: inline-block;
 	cursor: default;
 }
@@ -483,7 +483,7 @@ body .cke_dialog
 .cke_skin_minimalist a:focus span.cke_dialog_ui_button,
 .cke_skin_minimalist a:active span.cke_dialog_ui_button
 {
-	background-color: #8db1ff;
+	background-color: #c6c6c6;
 }
 .cke_skin_minimalist .cke_hc a:focus span.cke_dialog_ui_button,
 .cke_skin_minimalist .cke_hc a:active span.cke_dialog_ui_button
